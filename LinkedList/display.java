@@ -31,7 +31,7 @@ public class display {
         d.next=e;
 
         Node temp=a;
-        for(int i=1; i<=5; i++){
+        while(temp!=null){
             System.out.println(temp.val);
             temp=temp.next;
         }
